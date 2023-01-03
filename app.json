@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "prolamsee",
+    "slug": "prolamsee",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      "@react-native-firebase/app"
+    ],
+    "android": {
+      "package": "com.prolamsee",
+      "googleServicesFile": "./google-services.json"
+    },
+    "ios": {
+      "bundleIdentifier": "com.prolamsee",
+      "googleServicesFile": "./GoogleService-Info.plist"
+    }
+  }
+}
